@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<name>Example Executable JAR</name>
+	<name>Example Jetty WAR</name>
 	<groupId>com.example</groupId>
-	<artifactId>example-executable</artifactId>
+	<artifactId>example-jetty-war</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<description>
 		1.0 - Initial project.
 	</description>
@@ -16,16 +16,6 @@
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
 			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-collections</groupId>
-			<artifactId>commons-collections</artifactId>
-			<version>3.2.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.0.1</version>
 		</dependency>
 
 		<!-- **********************************************************
@@ -63,8 +53,6 @@
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>8.0.1.v20110908</version>
-				<configuration>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
