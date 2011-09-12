@@ -1,0 +1,9 @@
+This example illustrates how to set up an extremely simple webapp to run
+with the jetty-maven-plugin.
+
+Check out the project locally, and run:
+mvn jetty:run
+
+The application will start. Navigate to the following URL to see a very
+basic servlet:
+http://localhost:8080/exampleServlet
